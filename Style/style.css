@@ -88,7 +88,32 @@ img:hover{
     transition: color 0.3s ease;
 
 }
+.artBotao{
+    background-color: palevioletred;
+    color: rgb(204, 37, 65);
+    border: none;
+    border-color: antiquewhite;
+    border-radius: 4px;
+    font-size: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
 
+.bntCompra{
+    background-color: pink;
+}
+.bntCompra:active{
+    transform: scale(0.95);
+}
+
+@keyframes growAndRotate {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    100% {
+         transform: scale(1.08) rotate(0deg);
+    }
+}
 .artPocao {
     display: flex;
     justify-content: center;
