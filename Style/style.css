@@ -1,5 +1,5 @@
 body{
-   background-color: rgb(184, 20, 20);
+   background-color: rgb(171, 35, 234);
    margin: 0;
    padding: 0;
    width: 99.70vw;
@@ -11,13 +11,13 @@ body{
 header{
     border: 1px;
     border-style: solid;
-    border-color: rgb(184, 20, 20);
+    border-color: rgb(255, 255, 255);
     width: 100%;
     height: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(184, 20, 20);
+    background-color:rgb(171, 35, 234);
 } 
 
 .cabecalho{
@@ -25,34 +25,34 @@ header{
     height: 50px;
     border: 1px;
     border-style: solid;
-    border-color: bisque;
+    border-color: rgb(246, 250, 248);
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 451px;
-    background-color: bisque;
+    background-color: rgb(127, 240, 182);
 }
 main{
     border: 1px;
     border-style: solid;
-    border-color: rgb(184, 20, 20);
+    border-color: rgb(171, 35, 234);
     height: 425px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(184, 20, 20);
+    background-color:rgb(171, 35, 234);
    
 }
 footer{
     border: 1px;
     border-style: solid;
-    border-color: rgb(184, 20, 20);
+    border-color: rgb(246, 242, 242);
     width: 100%;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(184, 20, 20);
+    background-color:rgb(171, 35, 234);
 }
 
 .principal{
@@ -60,7 +60,7 @@ footer{
     height: 95%;
     border: 1px;
     border-style: solid;
-    background-color: bisque;
+    background-color: rgb(127, 240, 182);
 }
 
 img {
@@ -101,13 +101,13 @@ img:hover{
 }
 
 .bntCompra{
-    background-color: rgb(215, 175, 227);
+    background-color: rgb(230, 136, 146);
     padding: 10px;
     border-radius: 16px;
 }
 .bntCompra:active{
     color: white;
-    background: rgb(119, 35, 107);
+    background: rgb(63, 2, 45);
     transform: scale(0.95);
 }
 
@@ -126,7 +126,7 @@ img:hover{
     border: 2px solid;
     width: 120px;              
     height: 120px;            
-    background-color: rgb(130, 40, 40);
+    background-color: rgb(230, 136, 146);
     transform-origin: center; 
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
