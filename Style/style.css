@@ -89,20 +89,25 @@ img:hover{
 
 }
 .artBotao{
-    background-color: palevioletred;
-    color: rgb(204, 37, 65);
+    background-color: rgb(209, 112, 216);
+    color: rgb(210, 148, 237);
     border: none;
-    border-color: antiquewhite;
+    border-color: rgb(9, 9, 8);
     border-radius: 4px;
     font-size: bold;
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.1s ease;
+    padding: 2px;
 }
 
 .bntCompra{
-    background-color: pink;
+    background-color: rgb(215, 175, 227);
+    padding: 10px;
+    border-radius: 16px;
 }
 .bntCompra:active{
+    color: white;
+    background: rgb(119, 35, 107);
     transform: scale(0.95);
 }
 
