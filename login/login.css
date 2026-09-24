@@ -29,6 +29,10 @@ input{
     color: bisque;
     background-color: brown;
     border-radius: 8px;
+    text-shadow: 4px 0.5px 3px black;
+    text-indent: 1rem;
+    text-transform: lowercase;
+    letter-spacing: 0.135rem;
 }
 label{
     font-family: 'Delius',cursive;
