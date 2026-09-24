@@ -1,67 +1,76 @@
 @import url('../../style/style.css');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh; /* Garante que ocupe a tela toda */
 }
 .container{
+
     width: clamp(25rem, 70vw, 100vw);
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
+    border:none;
 }
 .login{
-    background-color: brown;
+    background-color: rgb(101, 73, 2);
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 2rem;
+    flex-direction: column; /* Para empilhar o h1 e futuros inputs */
+    padding: 2rem; /* Reduzido de 10rem para não espremer o conteúdo em telas pequenas */
     border-radius: 8px;
 }
 input{
     font-size: x-large;
-    color: bisque;
-    background-color: brown;
+    color:bisque;
+    background: rgb(253, 216, 120);
     border-radius: 8px;
     text-shadow: 4px 0.5px 3px black;
     text-indent: 1rem;
     text-transform: lowercase;
     letter-spacing: 0.135rem;
+    
 }
 label{
     font-family: 'Delius',cursive;
-    font-size: x-large;
-    color:bisque;
-}
-label{
-    font-size: x-large;
-    color:bisque;
-    background-color: brown;
-    transition: 1s ease-in-out;
-    cursor: pointer;
+   font-size: x-large;
+   color:bisque;
+   
 }
 button{
     font-size: x-large;
-    color: bisque;
-    background-color: brown;
+    color:bisque;   
+    background: brown;
     transition: 1s ease-in-out;
-    cursor: pointer;
+    cursor:pointer;
+    border-radius: 8px;
+    
 }
 button:hover{
-    color: bisque;
-    background-color: brown;
-    box-shadow: 5px 5px 20px;
+    color:bisque;
+    background:linear-gradient(to right, rgb(254, 176, 81), brown);
+    box-shadow: 5px 5px 20px ;
 }
-from{
+form{
     width: 100%;
-    height: 20vh;
-    display: flex;
+    height: 30vh;
+    display:flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: column;    
+}
+#resp{
+    font-size: x-large;
+    color:bisque;
+    background: rgb(253, 216, 120);
+    border-radius: 8px;
+    text-shadow: 4px 0.5px 3px black;
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 0.135rem;
 }

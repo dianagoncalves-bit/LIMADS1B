@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="module" href="./login.css">
-    <script type="module" src="../../js/login.js" ></script>
-    
+    <link rel="stylesheet" href="./login.css">
+    <script type="module" src="../../js/login.js"></script>
     <title>Login</title>
 </head>
+<!-- O body volta a ser apenas o body -->
 <body>
+    <!-- O container agora é um elemento filho que segura o login -->
     <main class="container">
-        <section class="login">
-            <label for="txtLogin">Login</label>
-            <input type="email" name="" id="txtLogin">
-            <label for="txtSenha">Senha</label>
-            <input type="password" name="" id="txtSenha">
-            <button id="btnClicar">Confirmar</button>
+        <section class="login">        
+            <form>
+                <label for="txtLogin">Login</label>
+                <input type="email" name="" id="txtLogin">
+                <label for="txtSenha">Senha</label>
+                <input type="password" name="" id="txtSenha">
+                <button type = "button" id="btnClicar">Confirmar</button>
+            </form>          
         </section>
     </main>
 </body>
