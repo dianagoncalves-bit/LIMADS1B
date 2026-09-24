@@ -1,10 +1,9 @@
-
 let login = document.getElementById("txtLogin");
 let senha = document.getElementById("txtSenha");
 let botao = document.getElementById("btnClicar");
 /**Imaginemos que o login e senha venha através do banco de dados */
-const loginBd="gandalf@gmail.com";
-const senhaBd="anel_do_frodo";
+const loginBd="selwynkane@gmail.com";
+const senhaBd="cardanjude123";
 function clicar() {
     let usuarioDigitado = login.value;
     let senhaDigitada = senha.value;
